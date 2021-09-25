@@ -1,0 +1,64 @@
+* {
+    /* border: 1px dotted black; */
+}
+
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+#content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#msg-roomlist-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+#room {
+    font-size: 25px;
+    font-weight: bold;
+    color: #00B7FF;
+    background-color: #eee;
+    margin-bottom: 1em;
+    padding: 5px;
+}
+
+#messages {
+    font-size: 25px;
+    width: 600px;
+    height: 350px;
+    background-color: #eee;
+    padding: 10px;
+    overflow: auto;
+}
+
+#room-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    margin-bottom: 2px;
+
+    font-size: 12px;
+    font-weight: bold;
+    color:chocolate;
+    background-color: #eee;
+    padding: 10px;
+    width: 150px;
+    height: 350px;
+    overflow: auto;
+}
+
+#room-list div:hover {
+    background-color: tomato;
+}
