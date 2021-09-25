@@ -34,7 +34,7 @@ Then the app will be run on `localhost:3000/index.html`.
 
 ## Bugs
 
-- if the client leave their own default room by using `socket.leave(room)`, it will receive the message from itself.
+- If the client leave its own default room by using `socket.leave(room)`, it will receive the message from itself.
 
 ## References  
 
