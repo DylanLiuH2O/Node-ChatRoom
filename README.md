@@ -42,7 +42,7 @@ Then the app will be run on `localhost:3000/index.html`.
 
 [*Node.js in Action* (The 1st edition was out of date, many apis in this book have changed, highly reccommand the 2nd edition.)](https://www.amazon.com/dp/1617290572/ref=cm_sw_r_tw_dp_B7QNWSVS31T9XG2XBWCG)  
 
-# 一个基于[Sock.IO](https://socket.io)的简单web聊天室  
+# 一个基于[Socket.IO](https://socket.io)的简单web聊天室  
 
 这是一个用于练习Node.js的简单demo。
 
